@@ -1,0 +1,59 @@
+body {
+  background: rgb(245, 248, 250);
+}
+
+.catalog-img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.section-title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.description-text {
+  color: rgb(80, 80, 120);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.detailed-text {
+  color: rgb(55, 55, 55);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.features-list {
+  list-style: none; /* Убираем стандартную точку */
+  padding-left: 0; /* Сбрасываем стандартный отступ */
+  color: rgb(60, 60, 60);
+  font-size: 16px;
+}
+
+.features-list li {
+  padding-left: 1.5rem; /* Делаем свой отступ */
+  position: relative;
+}
+
+.features-list li::before {
+  content: url("img/marker.png"); /* Ваша картинка */
+  position: absolute;
+  left: 0; /* Прижимаем к левому краю */
+  top: 2px; /* Можно подвигать по вертикали */
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 700;
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Книжный склад</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Книжный склад</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Каталог</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="py-4 border-bottom bg-light">
+      <div class="container text-center">
+        <h1 class="display-5 mb-2">Книжный склад</h1>
+        <p class="lead mb-0">
+          Книги по жанрам и авторам в одном удобном каталоге
+        </p>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <h2 class="mb-3">Добро пожаловать!</h2>
+          <p class="fs-5">
+            Здесь собраны книги разных жанров: классика, фантастика, детективы,
+            фэнтези и современная проза. Каталог удобно разделён по темам и
+            авторам.
+          </p>
+          <a href="catalog.html" class="btn btn-primary btn-lg"
+            >Перейти в каталог</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-top py-3 bg-light">
+      <div class="container text-center">
+        <span>&copy; Все права защищены</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
